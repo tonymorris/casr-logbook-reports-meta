@@ -1,8 +1,8 @@
 {-# LANGUAGE TemplateHaskell #-}
 
 module Data.Aviation.Casr.Logbook.Reports.Meta.ExpenseReport(
-  ExpenseReport
-, HasExpenseReport
+  ExpenseReport(ExpenseReport)
+, HasExpenseReport(..)
 , entryExpenseReport
 , logbookExpenseReport
 ) where
