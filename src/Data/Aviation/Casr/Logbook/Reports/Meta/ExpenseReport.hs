@@ -10,7 +10,7 @@ module Data.Aviation.Casr.Logbook.Reports.Meta.ExpenseReport(
 import Control.Category((.))
 import Control.Lens(makeClassy, (^.), _Wrapped)
 import Control.Monad((>>=), return)
-import Data.Aviation.Casr.Logbook(Entry(AircraftFlightEntry, SimulatorFlightEntry, ExamEntry, BriefingEntry), Logbook, logbookentries)
+import Data.Aviation.Casr.Logbook.Types(Entry(AircraftFlightEntry, SimulatorFlightEntry, ExamEntry, BriefingEntry), Logbook, logbookentries)
 import Data.Aviation.Casr.Logbook.Meta(
     AircraftFlightMeta
   , SimulatorFlightMeta
